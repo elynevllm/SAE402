@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modèles & Personnalisation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+
+</head>
+
+<body style="background-color: #ffffff;">
+
+
+  <!-- Barre de navigation -->
+  <nav class="bg-gradient-to-r from-pink-400 to-pink-600 fixed top-0 left-0 w-full z-50 shadow-lg text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-7 py-4">
+      <div class="flex justify-between items-center">
+        <!-- Logo agrandi -->
+        <img src="logo copy blanc.png" alt="Logo" class="h-20 w-auto" />
+
+        <img src="fleurs.png" alt="Logo" class="h-20 w-auto" />
+        <img src="fleurs.png" alt="Logo" class="h-20 w-auto" />
+        <img src="fleurs.png" alt="Logo" class="h-20 w-auto" />
+        <img src="fleurs.png" alt="Logo" class="h-20 w-auto" />
+        <img src="fleurs.png" alt="Logo" class="h-20 w-auto" />
+
+        <div class="space-x-6">
+
+          <div>
+            <a href="#models" class="hover:underline text-lg">Modèles</a>
+            <br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container mx-auto mt-20 px-6">
+    <!-- Section des modèles -->
+
+
+
+    <section id="models" class="py-10">
+      <!-- Section des modèles -->
+
+      <section id="models" class="py-16">
+        <h2 class="text-3xl font-semibold mb-6 text-center">
+          <span class="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-2 rounded-full shadow-lg">
+            Choisissez Votre Modèle
+          </span>
+        </h2>
+      </section>
+
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Modèle 1 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+          <!-- Image principale -->
+          <img id="main-image-1" src="Samba svg.png" alt="Modèle 1" class="w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg font-bold">Modèle 1</h3>
+          <p class="text-sm text-gray-600">Mr.Dob</p>
+          <button
+            class="mt-4 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-white rounded-full font-semibold text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
+            id="personalize-btn-1">
+            Personnaliser
+          </button>
+
+          <!-- Galerie d'images -->
+          <div class="mt-4 grid grid-cols-3 gap-2">
+            <img src="Samba svg.png" alt="Vue angle 1" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-1" />
+            <img src="MOCKUP samba copy.png" alt="Vue angle 2"
+              class="w-full h-24 object-cover rounded shadow image-option" data-main-image="main-image-1" />
+            <img src="semelle.png" alt="Vue angle 3" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-1" />
+          </div>
+        </div>
+
+        <!-- Modèle 2 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+          <!-- Image principale -->
+          <img id="main-image-2" src="Samba fleur.png" alt="Modèle 2" class="w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg font-bold">Modèle 2</h3>
+          <p class="text-sm text-gray-600">Flowers</p>
+          <button
+            class="mt-4 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-white rounded-full font-semibold text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
+            id="personalize-btn-2">
+            Personnaliser
+          </button>
+
+          <!-- Galerie d'images -->
+          <div class="mt-4 grid grid-cols-3 gap-2">
+            <img src="Samba fleur.png" alt="Vue angle 1" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-2" />
+            <img src="MOCKUP DE HAUTfleur copy.png" alt="Vue angle 2"
+              class="w-full h-24 object-cover rounded shadow image-option" data-main-image="main-image-2" />
+            <img src="semelle.png" alt="Vue angle 3" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-2" />
+          </div>
+        </div>
+
+        <!-- Modèle 3 -->
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition">
+          <!-- Image principale -->
+          <img id="main-image-3" src="samba3.png" alt="Modèle 3" class="w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg font-bold">Modèle 3</h3>
+          <p class="text-sm text-gray-600">Pink River</p>
+          <button
+            class="mt-4 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-white rounded-full font-semibold text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
+            id="personalize-btn-3">
+            Personnaliser
+          </button>
+
+          <!-- Galerie d'images -->
+          <div class="mt-4 grid grid-cols-3 gap-2">
+            <img src="samba3.png" alt="Vue angle 1" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-3" />
+            <img src="MOCKUP 3 copy.png" alt="Vue angle 2" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-3" />
+            <img src="semelle.png" alt="Vue angle 3" class="w-full h-24 object-cover rounded shadow image-option"
+              data-main-image="main-image-3" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // Sélectionner toutes les images des galeries
+    const galleryImages = document.querySelectorAll(".image-option");
+
+    // Ajouter un écouteur pour chaque image
+    galleryImages.forEach((image) => {
+      image.addEventListener("click", () => {
+        // Identifier l'ID de l'image principale associée
+        const mainImageId = image.getAttribute("data-main-image");
+
+        // Remplacer la source de l'image principale par celle de l'image cliquée
+        const mainImage = document.getElementById(mainImageId);
+        mainImage.src = image.src;
+      });
+    });
+  </script>
+
+
+  <!-- Zone de personnalisation (initialement masquée) -->
+  <div id="customization-container" class="mt-10 hidden">
+    <button id="close-customization"
+      class="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-full font-semibold text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 mb-4 ml-5">
+      Fermer
+    </button>
+    <!-- Zone pour superposer l'image et le SVG dans un même cadre -->
+    <div class="customization-overlay">
+      <img id="customization-image" src="" alt="Modèle Personnalisé" class="w-full" />
+      <div id="svg-container" class="absolute top-0 left-0 w-full h-full">
+        
+        <div class="text-container" style="position: absolute; left: 60%; top: 80%; transform: translateY(-20%); color: #000000; font-size: 1.2rem; font-weight: bold; display: flex; align-items: center;">
+          <i class="fas fa-arrow-left" style="margin-right: 20px; font-size: 1.5rem;"></i> Clique sur la zone grise pour modifier la couleur
+        </div>
+
+        <script>
+          function changeColor() {
+            // Modifier la couleur de la zone (ou l'image)
+            document.querySelector('.image-container').style.backgroundColor = 'white'; // Exemple : changer la couleur de fond de la zone
+      
+            // Rendre le texte invisible (opacité)
+            const textContainer = document.getElementById('text-container');
+            textContainer.style.opacity = '0'; // Rendre invisible en jouant sur l'opacité
+      
+            // Attendre la fin de l'animation de disparition avant de cacher complètement le texte
+            setTimeout(function() {
+              textContainer.style.display = 'none'; // Cacher complètement l'élément après l'animation
+            }, 500); // Le délai correspond à la durée de la transition (0.5s)
+          }
+        </script>
+        
+        <!-- SVG pour Modèle 1 -->
+        <svg id="product-svg-1" class="custom-svg" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1202 847">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: red;
+                stroke-width: 0px;
+                opacity: .67;
+              }
+            </style>
+          </defs>
+          <path class="product-shape"
+            d="M123.23,502.54s-21.83,32.4,0,60.99c0,0,36.58,30.5,185.83,43.84,0,0,229.47,4.65,344.91,0,0,0,337.62-10.13,346.9-12.28,0,0,13.93-2.86,17.91-25,0,0,6.24-46.79,5.24-50.73.11,2.51.33-11.1-1.99-14.32l-5.65-4.65s-1.66,2.86-4.65,3.22c0,0-221.72,11.1-234.68,10.02,0,0-26.59,1.43-30.91,2.51s-388.22,26.51-409.52,18.57c0,0-211.34-13.2-213.37-32.18Z" />
+          <path class="product-shape"
+            d="M961.42,258.1s11.16,3.31,11.92,9.11c0,0,3.39,7.36,2,15.09,0,0,9.27,5.99,6.95,17.21,0,0,8.11,4.49,3.94,17.21,0,0,4.17-1.5,13.43,32.18,0,0-73.89,40.41-75.98,41.41,0,0-27.1,13.22-31.27,13.47,0,0-20.38,11.23-50.73-31.68,0,0,64.63-6.74,75.51-13.72,0,0,18.07-9.23,25.02-19.96,0,0,9.96-21.2,11.81-37.17l7.39-43.17Z" />
+          <g>
+            <path class="product-shape" d="M336.78,388.82s4.2,22.34,17.28,14.89c0,0,16.79.8,5.93-24.99l-23.21,10.1Z" />
+            <path class="product-shape"
+              d="M394.8,365.95s-10.37,18.54,3.7,26.02c0,0,8.39-.49,12.59-6.08,0,0,7.9-13.03,6.42-23.13l-22.71,3.19Z" />
+            <path class="product-shape"
+              d="M440.22,353.19s8.64-1.06,11.85-2.39,12.59-6.12,12.59-6.12c0,0-2.47,9.04-2.47,11.97,0,0,2.72,23.4-13.33,22.07,0,0-13.09,2.66-8.64-25.53Z" />
+            <path class="product-shape"
+              d="M485.9,337.5s21.97-9.31,26.42-8.77-3.21,5.85-3.21,5.85c0,0-5.93,3.72-5.93,10.1,0,0-1.98,21.01-11.11,19.94,0,0-9.63,6.12-6.17-27.12Z" />
+            <path class="product-shape"
+              d="M527.62,322.08s15.8-7.71,16.54-7.71-1.73,7.71,0,11.17,7.94,15.31.14,21.35c0,0-18.91,7.9-16.68-24.81Z" />
+            <path class="product-shape"
+              d="M571.07,300.54s-5.18,26.32,7.41,26.86c0,0,3.21,4.48,7.41,1.31,0,0,5.43.02,6.17-21.78,0,0-2.47-12.5,0-14.36s-20.99,7.98-20.99,7.98Z" />
+            <path class="product-shape"
+              d="M592.06,292.56s22.22,21.54,28.89,20.74,14.57-2.39,12.84-13.29c0,0-10.37-18.88-14.57-19.14l-27.16,11.7Z" />
+          </g>
+        </svg>
+
+        <!-- SVG pour Modèle 2 -->
+        <svg id="product-svg-2" class="custom-svg hidden" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1202 847">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: blue;
+                stroke-width: 0px;
+              }
+            </style>
+          </defs>
+          <path class="product-shape"
+            d="M123.23,502.54s-21.83,32.4,0,60.99c0,0,36.58,30.5,185.83,43.84,0,0,229.47,4.65,344.91,0,0,0,337.62-10.13,346.9-12.28,0,0,13.93-2.86,17.91-25,0,0,6.24-46.79,5.24-50.73.11,2.51.33-11.1-1.99-14.32l-5.65-4.65s-1.66,2.86-4.65,3.22c0,0-221.72,11.1-234.68,10.02,0,0-26.59,1.43-30.91,2.51s-388.22,26.51-409.52,18.57c0,0-211.34-13.2-213.37-32.18Z" />
+          <path class="product-shape"
+            d="M961.42,258.1s11.16,3.31,11.92,9.11c0,0,3.39,7.36,2,15.09,0,0,9.27,5.99,6.95,17.21,0,0,8.11,4.49,3.94,17.21,0,0,4.17-1.5,13.43,32.18,0,0-73.89,40.41-75.98,41.41,0,0-27.1,13.22-31.27,13.47,0,0-20.38,11.23-50.73-31.68,0,0,64.63-6.74,75.51-13.72,0,0,18.07-9.23,25.02-19.96,0,0,9.96-21.2,11.81-37.17l7.39-43.17Z" />
+          <g>
+            <path class="product-shape" d="M336.78,388.82s4.2,22.34,17.28,14.89c0,0,16.79.8,5.93-24.99l-23.21,10.1Z" />
+            <path class="product-shape"
+              d="M394.8,365.95s-10.37,18.54,3.7,26.02c0,0,8.39-.49,12.59-6.08,0,0,7.9-13.03,6.42-23.13l-22.71,3.19Z" />
+            <path class="product-shape"
+              d="M440.22,353.19s8.64-1.06,11.85-2.39,12.59-6.12,12.59-6.12c0,0-2.47,9.04-2.47,11.97,0,0,2.72,23.4-13.33,22.07,0,0-13.09,2.66-8.64-25.53Z" />
+            <path class="product-shape"
+              d="M485.9,337.5s21.97-9.31,26.42-8.77-3.21,5.85-3.21,5.85c0,0-5.93,3.72-5.93,10.1,0,0-1.98,21.01-11.11,19.94,0,0-9.63,6.12-6.17-27.12Z" />
+            <path class="product-shape"
+              d="M527.62,322.08s15.8-7.71,16.54-7.71-1.73,7.71,0,11.17,7.94,15.31.14,21.35c0,0-18.91,7.9-16.68-24.81Z" />
+            <path class="product-shape"
+              d="M571.07,300.54s-5.18,26.32,7.41,26.86c0,0,3.21,4.48,7.41,1.31,0,0,5.43.02,6.17-21.78,0,0-2.47-12.5,0-14.36s-20.99,7.98-20.99,7.98Z" />
+            <path class="product-shape"
+              d="M592.06,292.56s22.22,21.54,28.89,20.74,14.57-2.39,12.84-13.29c0,0-10.37-18.88-14.57-19.14l-27.16,11.7Z" />
+          </g>
+        </svg>
+
+        <!-- SVG pour Modèle 3 -->
+        <svg id="product-svg-3" class="custom-svg hidden" data-name="Calque 3" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1202 847">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: green;
+                stroke-width: 0px;
+              }
+            </style>
+          </defs>
+          <path class="product-shape"
+            d="M123.23,502.54s-21.83,32.4,0,60.99c0,0,36.58,30.5,185.83,43.84,0,0,229.47,4.65,344.91,0,0,0,337.62-10.13,346.9-12.28,0,0,13.93-2.86,17.91-25,0,0,6.24-46.79,5.24-50.73.11,2.51.33-11.1-1.99-14.32l-5.65-4.65s-1.66,2.86-4.65,3.22c0,0-221.72,11.1-234.68,10.02,0,0-26.59,1.43-30.91,2.51s-388.22,26.51-409.52,18.57c0,0-211.34-13.2-213.37-32.18Z" />
+          <path class="product-shape"
+            d="M961.42,258.1s11.16,3.31,11.92,9.11c0,0,3.39,7.36,2,15.09,0,0,9.27,5.99,6.95,17.21,0,0,8.11,4.49,3.94,17.21,0,0,4.17-1.5,13.43,32.18,0,0-73.89,40.41-75.98,41.41,0,0-27.1,13.22-31.27,13.47,0,0-20.38,11.23-50.73-31.68,0,0,64.63-6.74,75.51-13.72,0,0,18.07-9.23,25.02-19.96,0,0,9.96-21.2,11.81-37.17l7.39-43.17Z" />
+          <g>
+            <path class="product-shape" d="M336.78,388.82s4.2,22.34,17.28,14.89c0,0,16.79.8,5.93-24.99l-23.21,10.1Z" />
+            <path class="product-shape"
+              d="M394.8,365.95s-10.37,18.54,3.7,26.02c0,0,8.39-.49,12.59-6.08,0,0,7.9-13.03,6.42-23.13l-22.71,3.19Z" />
+            <path class="product-shape"
+              d="M440.22,353.19s8.64-1.06,11.85-2.39,12.59-6.12,12.59-6.12c0,0-2.47,9.04-2.47,11.97,0,0,2.72,23.4-13.33,22.07,0,0-13.09,2.66-8.64-25.53Z" />
+            <path class="product-shape"
+              d="M485.9,337.5s21.97-9.31,26.42-8.77-3.21,5.85-3.21,5.85c0,0-5.93,3.72-5.93,10.1,0,0-1.98,21.01-11.11,19.94,0,0-9.63,6.12-6.17-27.12Z" />
+            <path class="product-shape"
+              d="M527.62,322.08s15.8-7.71,16.54-7.71-1.73,7.71,0,11.17,7.94,15.31.14,21.35c0,0-18.91,7.9-16.68-24.81Z" />
+            <path class="product-shape"
+              d="M571.07,300.54s-5.18,26.32,7.41,26.86c0,0,3.21,4.48,7.41,1.31,0,0,5.43.02,6.17-21.78,0,0-2.47-12.5,0-14.36s-20.99,7.98-20.99,7.98Z" />
+            <path class="product-shape"
+              d="M592.06,292.56s22.22,21.54,28.89,20.74,14.57-2.39,12.84-13.29c0,0-10.37-18.88-14.57-19.14l-27.16,11.7Z" />
+          </g>
+        </svg>
+      </div>
+
+      
+
+      <div id="lottie-fireworks" class=" pointer-events-none"></div>
+    </div>
+    <!-- Sélecteur de couleur et animation Lottie -->
+    <div class="mt-4">
+
+      <input class="jscolor {onFineChange:'changeColor(this)'}" value="8067b9" />
+    </div>
+    <div id="lottie"></div>
+  </div>
+
+
+
+
+
+  <!-- Section Histoire de la Marque -->
+  <section id="contact" id="brand-history" class="py-10 bg-gray-100 text-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">
+        <span class="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg">
+          L'Histoire de la Marque
+      </h2>
+      </span>
+      <br>
+
+      </h2>
+      <p class="mb-4">IRO 村上 TSUKI – L’Art et la Mode en Fusion <br>
+        C'est une marque qui repousse les frontières entre l’art et la mode, née d’une collaboration exclusive avec le
+        légendaire artiste japonais Takashi Murakami (村上 隆). Inspirée par l’univers vibrant du pop-art et du streetwear,
+        cette collection incarne une vision audacieuse, où les couleurs éclatantes et les motifs iconiques de Murakami
+        rencontrent une esthétique contemporaine et raffinée.
+
+        Le nom IROTSUKI signifie "coloré" en japonais, un hommage direct à la palette chromatique intense qui
+        caractérise l’œuvre de Murakami et (村上), qui signifie "Murakami"</p>
+    </div>
+  </section>
+
+
+
+  <!-- Section Accessoires Livrés -->
+  <section id="accessories" class="py-10 bg-white text-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">
+        <span class="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg">
+          Accessoires Livrés avec la Chaussure
+      </h2>
+
+      <ul class="list-disc list-inside mb-6">
+        <li>Une paire de lacets blancs supplémentaires</li>
+        <li>Un sac de rangement en toile</li>
+        <li>Les charms exclusifs</li>
+      </ul>
+
+      <!-- Description des charms -->
+      <p class="mb-6 text-lg">
+        Inspirés des charms emblématiques de la collaboration entre "Louis Vuitton et Takashi Murakami", nos charms
+        allient innovation, fun et modularité. Conçus pour être amovibles, ils peuvent être détachés à tout moment ou
+        accrochés partout : sur les chaussures, sacs, vêtements ou même en porte-clés. Leur design audacieux et coloré
+        reflète l’univers artistique de Murakami, transformant chaque détail en une expression unique de style et de
+        créativité.
+      </p>
+
+      <!-- Conteneur pour le carrousel -->
+      <div class="flex items-center justify-center">
+        <!-- Flèche gauche -->
+        <div id="prev" class="text-3xl cursor-pointer text-gray-600 hover:text-gray-900 px-2" onclick="prevImage()">
+          &#8592; <!-- Flèche gauche -->
+        </div>
+
+        <!-- Conteneur d'image -->
+        <div class="relative w-1/2">
+          <img id="charmImage" src="charms3.png" alt="Charm 1"
+            class="w-full h-auto object-cover rounded shadow transition-opacity duration-500">
+        </div>
+
+        <!-- Flèche droite -->
+        <div id="next" class="text-3xl cursor-pointer text-gray-600 hover:text-gray-900 px-2" onclick="nextImage()">
+          &#8594; <!-- Flèche droite -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Liste des images des charms
+    const charmImages = ["charms3.png", "charms2.png", "charms.png"];
+    let currentIndex = 0;
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % charmImages.length; // Passe à l'image suivante
+      document.getElementById("charmImage").src = charmImages[currentIndex];
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + charmImages.length) % charmImages.length; // Revient à l'image précédente
+      document.getElementById("charmImage").src = charmImages[currentIndex];
+    }
+  </script>
+
+
+  <!-- Section Image de la Boîte -->
+
+  <!-- Section Image de la Boîte -->
+  <section id="shoe-box" class="py-10 bg-gray-100 text-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">
+        <span class="bg-gradient-to-r from-pink-400 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg">
+          La Boîte
+      </h2>
+      </span>
+
+      <!-- Conteneur principal -->
+      <div class="flex items-center justify-center space-x-6">
+        <!-- Conteneur des images avec flèche -->
+        <div class="relative flex items-center">
+          <!-- Première boîte (image initiale) -->
+          <img id="box1" src="boite.png" alt="Boîte de la chaussure"
+            class="w-1/2 h-auto object-cover rounded shadow cursor-pointer opacity-1 transition-opacity duration-500">
+
+          <!-- Deuxième boîte (image suivante) cachée par défaut -->
+          <img id="box2" src="boite rose.png" alt="Boîte de la chaussure"
+            class="w-1/2 h-auto object-cover rounded shadow absolute top-0 left-0 opacity-0 transition-opacity duration-500">
+
+          <!-- Flèche positionnée juste à droite de l'image -->
+          <div id="arrow" class="ml-4 text-4xl cursor-pointer text-blue-600 hover:text-blue-900"
+            onclick="showNextImage()">
+            &#8594; <!-- Flèche droite -->
+          </div>
+        </div>
+
+        <!-- Texte explicatif à droite -->
+        <div class="w-1/2">
+          <p id="text1" class="text-lg opacity-1 transition-opacity duration-500">
+            Nos boîtes en édition limitée s’inspirent de l’univers de Murakami avec un couvercle en forme de chapeau,
+            clin d’œil à ses couvre-chefs iconiques et à l’esthétique de Monsieur DOB. Conçues comme de véritables
+            objets de collection, elles arborent notre logo et les fleurs emblématiques de l’artiste, mêlant art,
+            innovation et exclusivité.
+          </p>
+          <p id="text2" class="text-lg opacity-1 transition-opacity duration-500">
+            Plus qu’un simple emballage, chaque boîte devient une pièce unique qui sublime et prolonge l’expérience de
+            la collection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let currentImage = 1; // Suivi de l'image affichée
+
+    function showNextImage() {
+      const box1 = document.getElementById('box1');
+      const box2 = document.getElementById('box2');
+      const text1 = document.getElementById('text1');
+      const text2 = document.getElementById('text2');
+
+      if (currentImage === 1) {
+        // Afficher la deuxième image et masquer la première
+        box1.style.opacity = '0';
+        box2.style.opacity = '1';
+
+        // Changer le texte correspondant
+        text1.style.opacity = '0';
+        text2.style.opacity = '1';
+
+        currentImage = 2;
+      } else {
+        // Revenir à la première image
+        box2.style.opacity = '0';
+        box1.style.opacity = '1';
+
+        // Revenir au texte initial
+        text2.style.opacity = '0';
+        text1.style.opacity = '1';
+
+        currentImage = 1;
+      }
+    }
+  </script>
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-6 mt-15" style="background-color: #ff6699;">
+    <p>IRO TSUKI – Des couleurs aux pieds, une histoire à raconter</p>
+  </footer>
+
+
+
+
+  <script>
+    // --------------------------
+    // Gestion du changement de couleur et animation Lottie
+    // --------------------------
+    let selectedShape = null;
+
+    // Attache un écouteur sur les formes (dans le SVG affiché)
+    function attachShapeListeners() {
+      const shapes = document.querySelectorAll("#svg-container .product-shape");
+      shapes.forEach(shape => {
+        shape.addEventListener("click", (event) => {
+          if (selectedShape) {
+            selectedShape.style.opacity = "1";
+          }
+          selectedShape = event.target;
+          selectedShape.style.opacity = "0.5";
+        });
+      });
+    }
+
+    const lottieContainer = document.getElementById('lottie');
+    lottieContainer.style.display = 'none';
+    const animation = bodymovin.loadAnimation({
+      container: lottieContainer,
+      path: 'animation.json', // Adaptez ce chemin vers votre animation
+      renderer: 'svg',
+      loop: false,
+      autoplay: false,
+    });
+
+    // Charger l'animation fireworks.json en arrière-plan
+    const fireworksAnimation = document.getElementById('lottie-fireworks');
+    fireworksAnimation.style.display = 'none';
+    const animationfireworks = bodymovin.loadAnimation({
+      container: document.getElementById("lottie-fireworks"), // Conteneur
+      renderer: "svg",
+      loop: false,
+      autoplay: false,
+      path: "firework.json" // Assure-toi que ce fichier est bien à la racine du projet ou mets le bon chemin
+    });
+
+
+
+    function changeColor(picker) {
+      if (selectedShape) {
+        // Change la couleur de la forme sélectionnée
+        selectedShape.setAttribute("fill", picker.toHEXString());
+
+        // Fixe l'opacité en utilisant l'attribut SVG
+        selectedShape.setAttribute("opacity", "0.5"); // Opacité réduite à 50%
+
+        // Utilise une classe CSS comme garantie supplémentaire
+        selectedShape.classList.add("shape-modified");
+
+        // Affiche l'animation Lottie
+        lottieContainer.style.display = "block";
+        animation.goToAndPlay(0, true);
+
+        fireworksAnimation.style.display = "block"
+        animationfireworks.goToAndPlay(0, true);
+
+        // Cache l'animation après 2 secondes
+        setTimeout(() => {
+          lottieContainer.style.display = "none";
+        }, 2000);
+      } else {
+        console.warn("Aucune forme sélectionnée !");
+
+      }
+    } document.addEventListener("DOMContentLoaded", function () {
+      // Charger la première animation Lottie existante si ce n'est pas déjà fait
+
+    });
+
+
+
+
+
+
+
+
+
+    // --------------------------
+    // Affichage de la zone de personnalisation et choix du modèle
+    // --------------------------
+    const customizationContainer = document.getElementById("customization-container");
+    const customizationImage = document.getElementById("customization-image");
+    const svg1 = document.getElementById("product-svg-1");
+    const svg2 = document.getElementById("product-svg-2");
+    const svg3 = document.getElementById("product-svg-3");
+
+    function hideAllSVGS() {
+      svg1.classList.add("hidden");
+      svg2.classList.add("hidden");
+      svg3.classList.add("hidden");
+    }
+
+    document.getElementById("personalize-btn-1").addEventListener("click", () => {
+      customizationContainer.classList.remove("hidden");
+      customizationImage.src = "Samba svg.png";
+      hideAllSVGS();
+      svg1.classList.remove("hidden");
+      selectedShape = null;
+      attachShapeListeners();
+    });
+
+    document.getElementById("personalize-btn-2").addEventListener("click", () => {
+      customizationContainer.classList.remove("hidden");
+      customizationImage.src = "Samba fleur.png";
+      hideAllSVGS();
+      svg2.classList.remove("hidden");
+      selectedShape = null;
+      attachShapeListeners();
+    });
+
+    document.getElementById("personalize-btn-3").addEventListener("click", () => {
+      customizationContainer.classList.remove("hidden");
+      customizationImage.src = "samba3.png";
+      hideAllSVGS();
+      svg3.classList.remove("hidden");
+      selectedShape = null;
+      attachShapeListeners();
+    });
+
+    // Bouton pour fermer la personnalisation
+    document.getElementById("close-customization").addEventListener("click", () => {
+      customizationContainer.classList.add("hidden");
+    });
+
+  </script>
+</body>
+
+</html>
